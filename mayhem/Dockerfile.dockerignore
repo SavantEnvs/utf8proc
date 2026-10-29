@@ -1,0 +1,10 @@
+# Prune local build outputs from the build context; keep .git (the image carries the full history).
+build/
+ctrf-report.json
+*.o
+*.a
+*.so
+*.dylib
+.DS_Store
+*.swp
+*~
